@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chain-diffusion"
+version = "0.1.0"
+description = "Protein-inspired 3D chain diffusion with DDPO fine-tuning"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+viz = ["imageio>=2.31"]
+dev = ["pytest", "jupyter"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
