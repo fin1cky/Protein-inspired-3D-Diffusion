@@ -131,11 +131,9 @@ stats = ddpo_sf_update_step_anchor(
 )
 ```
 
-## REFERENCES
+## References
 
 [1] [Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2 - Lin, Lee et al.](https://arxiv.org/abs/2405.15489)  
 [2] [Training Diffusion Models with Reinforcement Learning - Black et al.](https://arxiv.org/pdf/2305.13301)  
 [3] [Simple statistical gradient-following algorithms for connectionist reinforcement learning. Reinforcement learning - Williams.](https://people.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf)  
 [4] [Monte carlo gradient estimation in machine learning. The Journal of Machine Learning Research - Mohamed et al.](https://jmlr.org/papers/volume21/19-346/19-346.pdf)
-
-ChatGPT 5.4 Thinking, Claude Opus 4.6
